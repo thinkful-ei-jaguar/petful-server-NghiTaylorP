@@ -47,19 +47,17 @@ class Queue {
 
   all() {
     //let QCopy = Q;
+    let queue = [];
     if (!this.first) {
       return;
     }
-  
-    if (this.first.next === null) {
-      return console.log(`The first and only item is: ${this.first.data}`);
-    }
     while(this.first.next !== null) {
-      console.log(`This item is: ${this.first.data}`);
+      queue.push(this.first.data);
       this.first = this.first.next;
     }
-    console.log(`The last item is: ${this.first.data}`);
+    queue.push(this.first.data);
     this.first = null;
+    return queue;
   }
 }
 

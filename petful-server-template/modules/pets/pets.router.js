@@ -2,7 +2,7 @@ const express = require('express')
 const json = require('body-parser').json()
 
 const petService = require('./pets.service')
-const People = require('../people/people.service')
+const PeopleService = require('../people/people.service')
 
 const router = express.Router()
 
