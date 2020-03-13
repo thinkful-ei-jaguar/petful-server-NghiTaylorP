@@ -13,6 +13,9 @@ router.get('/', (req, res) => {
 router.post('/', json, (req, res) => {
   // Add a new person to the queue.
    const { name } = req. body
+   if(!name){
+     res.status(400).send('Name Required')
+   }
    PeopleService.enqueue(name)
    res.status(204).json()
   //  console.log(PeopleService.get()) --> confirms post by calling get all people in line
