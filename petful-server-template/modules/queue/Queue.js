@@ -46,7 +46,7 @@ class Queue {
   }
 
   all() {
-    //let QCopy = Q;
+    let QCopy = this.first;
     let queue = [];
     if (!this.first) {
       return;
@@ -56,8 +56,9 @@ class Queue {
       this.first = this.first.next;
     }
     queue.push(this.first.data);
-    this.first = null;
+    this.first = QCopy;
     return queue;
+  
   }
 }
 
