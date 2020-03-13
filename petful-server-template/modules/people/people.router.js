@@ -8,6 +8,7 @@ const router = express.Router()
 router.get('/', (req, res) => {
   // Return all the people currently in the queue.
   res.status(200).json(PeopleService.get())
+  // console.log(PeopleService.get())
 })
 
 router.post('/', json, (req, res) => {
