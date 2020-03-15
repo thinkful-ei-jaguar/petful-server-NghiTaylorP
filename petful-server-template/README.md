@@ -25,5 +25,6 @@ https://petful-server-nhgi-taylorp.herokuapp.com/api
 
 - Get /api/people
 - Post /api/people
+- Delete /api/people
 - Get /api/pets
 - Delete /api/pets
