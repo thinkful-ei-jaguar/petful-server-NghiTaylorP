@@ -1,9 +1,10 @@
+require('dotenv').config();
 const express = require('express')
 const cors = require('cors')
 const { CLIENT_ORIGIN } = require('../../config')
 
 const app = express()
-
+//console.log(CLIENT_ORIGIN)
 app.use(cors({
   origin: CLIENT_ORIGIN
 }))

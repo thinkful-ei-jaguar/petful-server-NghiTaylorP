@@ -21,10 +21,10 @@ module.exports = {
     let dog=[];
 
     if(pets.cats.show() !== null) {
-      cat.push(pets.cats.show())
+      cat.push(pets.cats.all())
     }
     if(pets.dogs.show() !== null) {
-      dog.push(pets.dogs.show())
+      dog.push(pets.dogs.all())
     }
     return { cat, dog };
   },

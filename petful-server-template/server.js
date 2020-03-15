@@ -1,3 +1,5 @@
+require('dotenv')
+
 const app = require('./modules/app/app')
 const { PORT } = require('./config')
 

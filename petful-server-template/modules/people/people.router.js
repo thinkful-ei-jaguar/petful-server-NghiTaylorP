@@ -7,6 +7,7 @@ const router = express.Router()
 
 router.get('/', (req, res) => {
   // Return all the people currently in the queue.
+  //console.log({people:PeopleService.get()})
   res.status(200).json(PeopleService.get())
   // console.log(PeopleService.get())
 })
