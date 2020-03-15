@@ -23,4 +23,10 @@ router.post('/', json, (req, res) => {
   //  console.log(PeopleService.get()) --> confirms post by calling get all people in line
 })
 
+router.delete('/', (req, res) => {
+  // Return all the people currently in the queue.
+  PeopleService.dequeue()
+  res.status(204).end()
+})
+
 module.exports = router
