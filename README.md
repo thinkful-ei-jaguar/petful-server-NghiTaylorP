@@ -14,12 +14,14 @@ https://petful-taylorp-nghit.now.sh/
 ## Tech Stack
 
 - Express
+- Knex
+- PostgreSQL
 - Queue data structure
 
 ### API
 
-https://github.com/thinkful-ei-jaguar/petful-server-NghiTaylorP
-https://petful-server-nhgi-taylorp.herokuapp.com/api
+API Repo: https://github.com/thinkful-ei-jaguar/petful-server-NghiTaylorP
+API server: https://petful-server-nhgi-taylorp.herokuapp.com/api
 
 ### Endpoints
 

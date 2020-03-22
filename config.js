@@ -3,4 +3,3 @@ module.exports = {
   CLIENT_ORIGIN:
     "https://petful-taylorp-nghit.now.sh/" || process.env.CLIENT_ORIGIN
 };
-//
