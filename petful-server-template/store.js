@@ -12,7 +12,7 @@ module.exports = {
         "https://images.pexels.com/photos/33053/dog-young-dog-small-dog-maltese.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       name: "Zim",
       story:
-        "Owner passed away 2 months ago and needs a family to share and continue his life journey with."
+        "Owner passed away 3 months ago and needs a family to share and continue his life journey with."
     },
 
     {
