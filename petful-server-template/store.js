@@ -1,5 +1,5 @@
 module.exports = {
-  people: ["Randy Lahey", "Trevor Cory", "Jim Lahey"],
+  people: ["Randy Lahey", "Trevor Cory", "Jim Lahey", "Frodo Baggins", "Tom Riddle"],
 
   dogs: [
     {
