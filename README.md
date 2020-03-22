@@ -21,6 +21,7 @@ https://petful-taylorp-nghit.now.sh/
 ### API
 
 API Repo: https://github.com/thinkful-ei-jaguar/petful-server-NghiTaylorP
+
 API server: https://petful-server-nhgi-taylorp.herokuapp.com/api
 
 ### Endpoints
